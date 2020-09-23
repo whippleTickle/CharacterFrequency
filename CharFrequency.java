@@ -21,6 +21,7 @@ public class CharFrequency {
     public static void testFrequency() {
         char[] test = {'a','p','p','l','e'};
         assert frequency(test, 'p') == 2 : "Valid";
-        System.out.println("z " + "occurs in apple : " + frequency(test, 'z') +" times");
+        System.out.println("z " + "occurs in apple : 
+                " + frequency(test, 'z') +" times");
     }
 }
